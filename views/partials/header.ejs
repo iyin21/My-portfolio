@@ -7,12 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
 </head>
 <div>
-  <input type="checkbox" id="check">
-    <label for="check">
-      <i class="fa fa-bars" id="expand"></i>
-      <i class="fa fa-times" id="close"></i>
-    </label>
-  <nav class="sidebar">
+  <!-- <input type="checkbox" id="check">
+    <label for="check"> -->
+    <!-- <a class="expand" href="#" onclick="openNav()"> -->
+        <i class="fa fa-bars" id="expand" href="#" onclick="openNav()"></i>
+    <!-- </a> -->
+    <!-- </label> -->
+  <nav class="sidebar" id="mySidebar">
   	<!-- <nav class="navbar navbar-light><a class="navbar-brand" href="#">Developer</a> -->
     <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -39,7 +40,11 @@
     </div>
   </div>
 </div> -->
+      <!-- <a href="javascript:void(0)" class="close" onclick="closeNav()"><i class="fa fa-times"></i></a> -->
+      <i class="fa fa-times" href="javascript:void(0)" id="close" onclick="closeNav()"></i>
       <header>Iyinoluwa</header>
+      <!-- <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> -->
+
       <ul>
         <li class="nav-item">
           <a class="nav-link" href="#">Home</a>
